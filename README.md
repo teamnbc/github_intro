@@ -1,19 +1,75 @@
-# github_intro
-Introduction to git/github for the team members
+# Introduction to git and github
+Introduction to git/github for the team members.
+
+**N.B.** The concepts presented here also apply to other online code version control system such as [gitlab](https://about.gitlab.com/). We will only cover basic functionalities of these tools that are of particular interest in research, although many more advanced functionalities exist.
+
+If you haven't already, [create a github account](https://github.com/join). I recommend you to use a personal email address that will still work after you leave the lab. If you are on windows or macOS please also [install github Desktop](https://desktop.github.com/).
+
+Note that as students, you are eligible to a [pro account for free](https://education.github.com/benefits/offers).
 
 ## A quick introduction to git and github main concepts
 
-### Why use github in research
+### Why and how to use github - Solo mode
 
-#### Github - Solo mode
+#### Github as a versioning, file navigation and code sharing tool
 
-#### Github - Collab mode
+- Tired of having multiple versions of your code ?
+- Ever had trouble working from several computers on the same code (e.g. experimental setup) ?
+- Are all of your analysis done in huge notebooks / scripts that are unreadable ?
+- Did you ever want to find the old version of the code you since modified ?
+- Do you keep huge commented pieces of old code in your scripts "just in case" ?
+- Ever had trouble reproducing an analysis you did a few months back ?
+- Have you ever wished the you from the past explained to you what a bit of code or analysis did or how to get it to work ?
+- Ever been in a situation where you need to find the perfect function you wrote six months ago ?
+- Ever wanted a better way to navigate through your code and results of analysis from anywhere ?
+- Don't you think it would be a good thing if other PhD students could use your analysis and if you could use theirs ?
+
+Then use git (code versioning) and github/gitlab (online code storage and navigation) !
+
+#### Terminology
+
+- **Repository** - A folder containing your project's file and each file revision history.
+- **Fork** - Your own copy of an existing repository.
+- **Clone** - Download an online repository to your computer.
+- **Commit** - A set a file modifications along with a brief explanation of what you did.
+- **Push** - Sending your local commit(s) to the online repository.
+- **Pull** - Grabbing the latest commit(s) from an online repository.
+
+#### Workflow for working with github alone
+
+I create a new or **fork** an existing **repository**.
+
+I **clone** the repository on my local computer.
+
+I make changes (file addition/deletion/modification) on my *local copy* of the repository and briefly describe what I did in one or multiple **commits** using git.
+
+I can now **push** my changes to the online github repository.
+
+If commits were made on the repository by someone else or from another computer, I can **pull** them to include the modifications to my local copy of the repository.
+
+#### Overview of the content of a typical repository
+
+- README.md
+- Complete instructions and required files for running the code
+- .gitignore
+- Code
+- ...
+
+### Why and how - Collab mode
+
+#### Github as a collaboration tool
+Git and github/gitlab are also great for code collaboration, whether it is for a small project ~~like spending 3 months working on a video acquisition software that did not really work in the end with [@stebett](https://github.com/stebett)~~ or allowing you to contribute to tools used by the community.
+
+#### Terminology
+
+- **branch** - An alternative version of the code which you can modify without affecting the original one
+- **pull request** - Discussion about modifications you made in a branch before including them in another branch
+- **merge** - Include the changes made in a branch of the code to another branch (usually the main one)
 
 
+#### Workflow for collaborating on github
 
 ![github_workflow](https://i0.wp.com/build5nines.com/wp-content/uploads/2018/01/GitHub-Flow.png?fit=900%2C310&ssl=1)
-
-**TODO** : explanations about git/github, .gitignore, installations (GUI for windows or atom), team_nbc organization...
 
 ## Mini example
 ### Goal
