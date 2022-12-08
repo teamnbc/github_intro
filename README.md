@@ -91,14 +91,13 @@ A [csv file](team_members.csv) containing the team pseudos is available along wi
 
 #### Github - Collab mode
 
-- Create your own **[fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo)** of the repository from github interface
-- Create a new **[branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch)** in your fork of the repository
-- **[Download / Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)** your **fork** of the repository from github interface
-- **Change branch** to your newly created **branch** on your local copy of your **fork**
+- Create a new **[branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch)** of the repository
+- **[Download / Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)** the repository from github interface
+- **Change branch** to your newly created **branch** on your local copy of the repository
 - Add your name to the csv file (e.g. using excel)
 - Re-run the python script to update the figure with your name
 - **Commit** your changes on your computer
-- **Push** your commit to your **branch** of your **fork**
+- **Push** your commit to your **branch**
 - Open a **[pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)** to the original repository so that your **commit** can be **merged**
 
 
