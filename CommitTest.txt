@@ -1,3 +1,0 @@
-test content for git tutorial
-hi
-
